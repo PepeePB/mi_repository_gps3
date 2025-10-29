@@ -202,7 +202,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: './usuarios.yaml#/components/schemas/Usuario'
+              $ref: '#/components/schemas/Usuario'
       responses:
         '201':
           description: Artista creado correctamente
